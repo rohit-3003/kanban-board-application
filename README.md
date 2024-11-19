@@ -1,6 +1,6 @@
-# [Kanban Board Application](https://main.d2nq9mz8ggbsl4.amplifyapp.com)
+# [Kanban Board Application](https://kanban-board-application-qwsk.onrender.com)
 
-This is a Kanban board application built using React JS that interacts with the provided API from [https://api.quicksell.co/v1/internal/frontend-assignment](https://api.quicksell.co/v1/internal/frontend-assignment). The application allows users to dynamically adjust the Kanban board based on their grouping and sorting preferences. Users can group tickets by status, user, or priority, and sort the displayed tickets by priority or title. The application also retains the user's view state even after page reload.
+This is a Kanban board application built using React JS that interacts with the provided API from [https://api.quicksell.co/v1/internal/frontend-assignment](https://api.quicksell.co/v1/internal/frontend-assignment)]. The application allows users to dynamically adjust the Kanban board based on their grouping and sorting preferences. Users can group tickets by status, user, or priority, and sort the displayed tickets by priority or title. The application also retains the user's view state even after page reload.
 
 ## Features
 
@@ -12,7 +12,7 @@ This is a Kanban board application built using React JS that interacts with the 
 
 ## Demo
 
-You can see a live demo of the Kanban board application [here](https://main.d2nq9mz8ggbsl4.amplifyapp.com).
+You can see a live demo of the Kanban board application [here](https://kanban-board-application-qwsk.onrender.com)
 
 ## Installation
 
@@ -20,12 +20,12 @@ To run the Kanban board application locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sagarchauhan015/kanban-board.git
+   git clone https://github.com/rohit-3003/kanban-board-application.git
    ```
 
 2. Navigate to the project directory:
     ```bash
-    cd kanban-board
+    cd kanban-board-application-master
     ```
 
 3. Install the required dependencies:
@@ -74,8 +74,8 @@ If you'd like to contribute to this project, please follow these guidelines:
 
 If you have any questions, suggestions, or feedback, feel free to contact the project maintainer:
 
-- **Name:** Sagar Chauhan
-- **Email:** [sagarchauhan015@gmail.com](mailto:sagarchauhan015@gmail.com)
+- **Name:** Rohit Shirsat
+- **Email:** [rohitshirsat100@gmail.com](mailto:rohitshirsat100@gmail.com)
 
 
 Enjoy using the Kanban board application to manage your tasks efficiently!
