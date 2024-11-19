@@ -1,26 +1,71 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-:root{
+
+:root {
   --white1: #ffffff;
   --black1: #000000;
-
   --textgrey: #808184;
-
   --grey1: #dfe4e9;
   --grey2: #f0f1f4;
   --grey3: #F8F8FA;
-
 }
-.board-details{
+
+.board-details {
   width: 100%;
   height: calc(100vh - 68px);
   background-color: var(--grey2);
-  overflow-x: scroll;
-}
-.board-details-list{
-  width: fit-content;
+  overflow-x: auto; /* Allow horizontal scrolling */
+  overflow-y: hidden; /* Prevent vertical scrolling */
   display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: flex-start; /* Align content at the top */
+  padding: 1rem; /* Add padding for better spacing */
+}
+
+.board-details::-webkit-scrollbar {
+  height: 8px; /* Adjust scrollbar height */
+}
+
+.board-details::-webkit-scrollbar-thumb {
+  background-color: var(--grey1);
+  border-radius: 4px;
+}
+
+.board-details::-webkit-scrollbar-track {
+  background-color: var(--grey2);
+}
+
+.board-details-list {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping by default */
+  gap: 1rem; /* Add spacing between items */
+  min-width: 100%; /* Ensure the list stretches horizontally */
+}
+
+@media (max-width: 768px) {
+  .board-details {
+    padding: 0.5rem; /* Reduce padding for smaller screens */
+  }
+
+  .board-details-list {
+    gap: 0.8rem; /* Slightly reduce spacing between items */
+  }
+}
+
+@media (max-width: 500px) {
+  .board-details {
+    padding: 0.5rem;
+    height: auto; /* Allow height to adjust dynamically */
+    overflow-x: scroll; /* Ensure horizontal scrolling remains */
+    overflow-y: visible; /* Allow vertical scrolling if needed */
+  }
+
+  .board-details-list {
+    flex-wrap: wrap; /* Allow wrapping on very small screens */
+    justify-content: center; /* Center items in smaller screens */
+    gap: 0.5rem; /* Further reduce spacing for compact view */
+  }
 }

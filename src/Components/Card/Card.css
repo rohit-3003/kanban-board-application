@@ -83,6 +83,7 @@
     align-items: center;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem; /* Add spacing for small screens */
+    padding: 0 3px;
 }
 
 .card-tag-icon > svg {
@@ -152,5 +153,6 @@
 
     .card-tag {
         margin-top: 0.5rem;
+
     }
 }

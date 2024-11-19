@@ -27,7 +27,8 @@ useEffect(() => {
       // Check if the expected properties exist in the response data
       if (data.tickets && data.users) {
         // Extract unique statuses
-        const statuses = Array.from(new Set(data.tickets.map(ticket => ticket.status)));
+        // const statuses = Array.from(new Set(data.tickets.map(ticket => ticket.status)));
+        const statuses = ['In progress', 'Backlog', 'Todo', 'Done', 'Cancelled']
         setStatusList(statuses);
 
         // Create a user lookup object to map userId to user name
