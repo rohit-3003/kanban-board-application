@@ -52,30 +52,4 @@ To run the Kanban board application locally, follow these steps:
 5. The application will save your view state, so you can return to your preferred settings even after a page reload.
 
 
-## Contributing
-
-If you'd like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository on GitHub.
-
-2. Clone the forked repository to your local machine.
-
-3. Create a new branch for your feature or bug fix:
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-4. Make your changes, commit them, and push to your fork.
-
-5. Open a pull request to the original repository, explaining the changes you made.
-
-
-## Contact
-
-If you have any questions, suggestions, or feedback, feel free to contact the project maintainer:
-
-- **Name:** Rohit Shirsat
-- **Email:** [rohitshirsat100@gmail.com](mailto:rohitshirsat100@gmail.com)
-
-
 Enjoy using the Kanban board application to manage your tasks efficiently!
