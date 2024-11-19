@@ -58,7 +58,7 @@
 @media (max-width: 500px) {
   .board-details {
     padding: 0.5rem;
-    height: auto; /* Allow height to adjust dynamically */
+    /* height: auto; Allow height to adjust dynamically */
     overflow-x: scroll; /* Ensure horizontal scrolling remains */
     overflow-y: visible; /* Allow vertical scrolling if needed */
   }
