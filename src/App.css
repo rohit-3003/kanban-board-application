@@ -18,7 +18,7 @@
   height: calc(100vh - 68px);
   background-color: var(--grey2);
   overflow-x: auto; /* Allow horizontal scrolling */
-  overflow-y: hidden; /* Prevent vertical scrolling */
+  /* overflow-y: hidden; Prevent vertical scrolling */
   display: flex;
   justify-content: center; /* Center content horizontally */
   align-items: flex-start; /* Align content at the top */
